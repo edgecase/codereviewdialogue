@@ -1,0 +1,120 @@
+
+app/controllers/application.rb,81
+class ApplicationController < ActionController::BaseApplicationController4,154
+
+app/controllers/users_controller.rb,66
+class UsersController < ApplicationControllerUsersController1,0
+
+app/helpers/application_helper.rb,48
+module ApplicationHelperApplicationHelper2,86
+
+app/helpers/users_helper.rb,35
+module UsersHelperUsersHelper1,0
+
+app/models/friend.rb,142
+class Friend < ActiveRecord::BaseFriend1,0
+  def full_namefull_name6,80
+  def inspectinspect10,136
+  def cool_factorcool_factor14,180
+
+app/models/group.rb,43
+class Group < ActiveRecord::BaseGroup1,0
+
+app/models/user.rb,119
+class User < ActiveRecord::BaseUser1,0
+  def cool_pointscool_points6,79
+  def add_friend(friend)add_friend14,208
+
+app/models/working_destroy.rb,82
+module WorkingDestroyWorkingDestroy1,0
+  def really_destroyreally_destroy3,23
+
+config/boot.rb,795
+module RailsRails6,175
+    def boot!boot!8,204
+    def booted?booted?15,302
+    def pick_bootpick_boot19,361
+    def vendor_rails?vendor_rails?23,437
+    def preinitializepreinitialize27,516
+    def preinitializer_pathpreinitializer_path31,615
+  class BootBoot36,705
+    def runrun37,718
+  class VendorBoot < BootVendorBoot43,813
+    def load_initializerload_initializer44,839
+  class GemBoot < BootGemBoot50,1001
+    def load_initializerload_initializer51,1024
+    def load_rails_gemload_rails_gem57,1138
+      def rubygems_versionrubygems_version69,1629
+      def gem_versiongem_version73,1729
+      def load_rubygemsload_rubygems83,1985
+      def parse_gem_version(text)parse_gem_version96,2421
+        def read_environment_rbread_environment_rb101,2562
+
+config/environment.rb,0
+
+config/environments/development.rb,0
+
+config/environments/production.rb,0
+
+config/environments/test.rb,0
+
+config/initializers/inflections.rb,0
+
+config/initializers/mime_types.rb,0
+
+config/initializers/new_rails_defaults.rb,0
+
+config/routes.rb,0
+
+data_setup.rb,0
+
+db/migrate/20081031211334_user.rb,95
+class User < ActiveRecord::MigrationUser1,0
+  def self.upup2,37
+  def self.downdown8,118
+
+db/migrate/20081031211605_friend.rb,99
+class Friend < ActiveRecord::MigrationFriend1,0
+  def self.upup2,39
+  def self.downdown9,165
+
+db/migrate/20081108133319_create_groups.rb,112
+class CreateGroups < ActiveRecord::MigrationCreateGroups1,0
+  def self.upup2,45
+  def self.downdown10,176
+
+db/schema.rb,0
+
+lib/rava.rb,255
+module SystemSystem3,29
+  def self.println(*args)println4,43
+  def self.outout8,92
+class ObjectObject13,127
+  def method_missing(sym, *args, &block)method_missing14,140
+  def rava_case(string)rava_case22,315
+  def new(klass, *args)new27,415
+
+mm.rb,85
+class ObjectObject1,0
+  def method_missing(sym, *args, &block)method_missing2,13
+
+public/dispatch.rb,0
+
+test/functional/users_controller_test.rb,114
+class UsersControllerTest < ActionController::TestCaseUsersControllerTest3,23
+  def test_truthtest_truth5,117
+
+test/test_helper.rb,38
+class Test::Unit::TestCaseTest5,123
+
+test/unit/friend_test.rb,93
+class FriendTest < ActiveSupport::TestCaseFriendTest3,23
+  def test_truthtest_truth5,105
+
+test/unit/group_test.rb,120
+class GroupsTest < ActiveSupport::TestCaseGroupsTest3,23
+  def test_group_must_be_namedtest_group_must_be_named6,86
+
+test/unit/user_test.rb,120
+class UserTest < ActiveSupport::TestCaseUserTest3,52
+  def test_can_create_valid_usertest_can_create_valid_user4,93

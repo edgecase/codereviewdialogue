@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+unnamed:
+  cool_value: 10
+
+uncool:
+  name: uncool
+
+too_cool:
+  name: RockStars
+  cool_value: 1001
+
+valid:
+  name: Rubyists
+  cool_value: 1000

@@ -1,0 +1,3 @@
+<% user.friends.each do |friend| %>
+<td><%= user.send(friend.full_name.gsub(/\s/, "").downcase) %></td>
+<% end %>

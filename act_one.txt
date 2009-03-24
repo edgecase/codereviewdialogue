@@ -1,0 +1,59 @@
+scene opens with chris joe and jim sitting down at the table
+
+Chris:
+  - thanks for comming
+  - love ruby and rails but things slowing down lately
+  - thought I would call you and get your help
+
+Joe:
+  - how did you hear about us?
+
+Chris: 
+  - I heard Jim speak at Amish on Rails
+
+[exchange with Jim and Chris]
+
+Joe:
+  - So we've seen the app from a code perspective but can you give us
+  the 10k view of the app?
+
+Chris:
+  - yeah we are really excited about this testing thing
+
+Jim: 
+  - so how is your testing coverage
+
+joe:
+  - tests not running
+
+* not all developers are on board with testing
+
+chris:  brittle tests
+
+* Fixture Testing w/ invalid data
+
+* continuous integration
+
+* code coverage
+  - after code coverage results 
+     chris: can't stop what we are doing to get test coverage up
+
+* Getting untest code under control
+  * Comment driven design
+
+* Investigate Meta Programming
+  * add_friend
+
+* Investigate really_destroy
+
+* Rava
+
+* System.out.println
+
+* new
+
+* Method Missing - both horizontally and vertically
+
+* points on idioms
+
+* Sproing

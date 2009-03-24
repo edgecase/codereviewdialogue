@@ -1,0 +1,169 @@
+# Logfile created on Sat Nov 08 11:48:45 -0500 2008  [4;36;1mSQL (0.000457)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000154)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mGroup Load (0.000408)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 651004855) [0m
+  [4;35;1mSQL (0.000159)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000135)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000077)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+  [4;36;1mGroup Load (0.000421)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 651004855) [0m
+  [4;35;1mSQL (0.000126)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000089)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000175)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000065)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000101)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000219)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000099)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000061)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000070)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000134)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.002390)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000305)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000136)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000136)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000067)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000059)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000103)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000087)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000069)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000085)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000099)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000151)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000141)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000149)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000101)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000090)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000069)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000137)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000171)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000290)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000235)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000281)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000146)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000076)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000132)[0m   [0mBEGIN[0m
+  [4;36;1mGroup Create (0.000259)[0m   [0;1mINSERT INTO "groups" ("name", "updated_at", "cool_value", "created_at") VALUES(E'Bill', '2008-11-08 18:28:50.058600', 100, '2008-11-08 18:28:50.058600')[0m
+  [4;35;1mSQL (0.000894)[0m   [0mSELECT currval('groups_id_seq')[0m
+  [4;36;1mSQL (0.000255)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000138)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000103)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000092)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000069)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000131)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000065)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000145)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000098)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000147)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000142)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000064)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000066)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000056)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000152)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000068)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000081)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000103)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000099)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSET client_min_messages TO 'error'[0m
+  [4;35;1mSQL (0.000188)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000094)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000077)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m

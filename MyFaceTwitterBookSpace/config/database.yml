@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: myface_dev
+
+test:
+  adapter: postgresql
+  database: myface_test
+  min_messages: error
+
+# Use the development database, but in production for benchmarking
+production:
+  adapter: postgresql
+  database: myface_dev

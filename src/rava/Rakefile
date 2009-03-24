@@ -1,0 +1,38 @@
+# -*- ruby -*-
+
+require 'rake/testtask'
+require 'rake/clean'
+
+begin
+  require 'rubygems'
+  require 'rake/gempackagetask'
+rescue Exception
+  nil
+end
+
+PKG_FILES = FileList['lib/**/*.rb', 'test/**/*.rb']
+
+if ! defined?(Gem)
+  puts "Package Target requires RubyGEMs"
+else
+  spec = Gem::Specification.new do |s|
+    s.name = 'Rava'
+    s.version = '1.0'
+    s.summary = "Ruby / Java Bridge."
+    s.description = "Rava is a Ruby Java bridge."
+    s.files = PKG_FILES.to_a
+    s.require_path = 'lib'
+    s.bindir = "bin"
+    s.executables = []
+    s.has_rdoc = true
+    s.rdoc_options = ''
+    s.author = "Chris"
+    s.email = "me@christophernelson.com"
+    s.homepage = "http://rake.rubyforge.org"
+  end
+
+  package_task = Rake::GemPackageTask.new(spec) do |pkg|
+    pkg.need_zip = true
+    pkg.need_tar = true
+  end
+end

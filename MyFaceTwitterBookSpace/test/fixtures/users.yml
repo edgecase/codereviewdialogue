@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+fred: 
+  name: Fred
+  id: "1"
+
+joe: 
+  name: Joe
+  id: "2"

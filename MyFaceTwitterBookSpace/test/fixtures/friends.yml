@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+mrjones:
+  id: "1"
+  user_id: "1"
+  first_name: Bob
+  last_name: Jones
+
+mrtroy:
+  id: "2"
+  user_id: "2"
+  first_name: Des
+  last_name: Troy
