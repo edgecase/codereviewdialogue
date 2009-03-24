@@ -1,13 +1,13 @@
 development:
-  adapter: postgresql
-  database: myface_dev
+  adapter: sqlite3
+  database: db/dev.sqlite3
 
 test:
-  adapter: postgresql
-  database: myface_test
+  adapter: sqlite3
+  database: db/test.sqlite3
   min_messages: error
 
 # Use the development database, but in production for benchmarking
 production:
-  adapter: postgresql
-  database: myface_dev
+  adapter: sqlite3
+  database: db/prod.squlite3
