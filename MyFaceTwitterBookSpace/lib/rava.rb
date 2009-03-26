@@ -16,8 +16,6 @@ class Object
     if new_sym =~ /[A-Z]/
       new_sym = rava_case(new_sym)
       send(new_sym, *args, &block)
-    else
-      super
     end
   end
 
